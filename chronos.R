@@ -66,7 +66,6 @@ SecondsToDuration <- function( seconds ) {
 		return( "Immediately" )
 	}
 
-
 	days <- floor( seconds / kDayInSeconds )
 	seconds.remaining.in.day <- seconds %% kDayInSeconds
 	hours <- floor( seconds.remaining.in.day / kHourInSeconds )
