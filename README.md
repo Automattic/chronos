@@ -51,6 +51,13 @@ Distribution:
 90% within 920 days 
 95% within 1288 days 
 100% within 1715 days 
+
+Percentage by certain durations:
+13% within 30 minutes
+14% within 1 hour
+17% within 5 hours
+20% within 1 day
+30% within 7 days
 ```
 
 ## Contact
