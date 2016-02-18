@@ -74,7 +74,17 @@ SecondsToDuration <- function( seconds ) {
 
 	parts <- c()
 	if ( days ) {
+		# Above one week, don't bother showing the hours and minutes
+		more.than.one.week = days > 7
+		if ( more.than.one.week ) {
+			days <- ceiling( seconds / kDayInSeconds )
+		}
+
 		parts <- c( parts, Pluralize( days, "day" ) )
+
+		if ( more.than.one.week ) {
+			return ( parts )
+		}
 	}
 
 	if ( hours ) {
