@@ -62,8 +62,4 @@ Percentage by certain durations:
 
 ## Contact
 
-If you have any suggestions, find a bug, or just want to say hey drop me a note at [@mhmazur](https://twitter.com/mhmazur) on Twitter or by email at matthew.h.mazur@gmail.com.
-
-## License
-
-MIT © [Matt Mazur](http://mattmazur.com)
+This script was originally created by [@mhmazur](https://twitter.com/mhmazur) - feel free to reach out if you have any questions.
